@@ -1,6 +1,6 @@
 {
   "name": "@juyren/stylelint-config-personal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "个人使用的stylelint配置",
   "keywords": [
     "stylelint",
@@ -20,9 +20,7 @@
   "dependencies": {
     "stylelint-config-recess-order": "^3.0.0",
     "stylelint-config-standard": "^26.0.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.5.0"
-  },
-  "peerDependencies": {
+    "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
     "postcss-less": "^6.0.0",
     "stylelint": "^14.9.1"
   }
