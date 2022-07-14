@@ -1,0 +1,29 @@
+{
+  "name": "@juyren/stylelint-config-personal",
+  "version": "1.0.0",
+  "description": "个人使用的stylelint配置",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "personal"
+  ],
+  "author": "juyren",
+  "repository": "git@github.com:JuyRen/stylelint-config-personal.git",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.5.0"
+  },
+  "peerDependencies": {
+    "postcss-less": "^6.0.0",
+    "stylelint": "^14.9.1"
+  }
+}
