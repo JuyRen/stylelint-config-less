@@ -17,7 +17,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "devDependencies": {
+  "dependencies": {
     "stylelint-config-recess-order": "^3.0.0",
     "stylelint-config-standard": "^26.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.5.0"
