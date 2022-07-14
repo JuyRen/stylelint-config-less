@@ -1,6 +1,6 @@
 {
   "name": "@juyren/stylelint-config-personal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "个人使用的stylelint配置",
   "keywords": [
     "stylelint",
