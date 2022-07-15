@@ -16,3 +16,7 @@
 3. 忽略与 prettier 冲突的规则 `stylelint-config-prettier`
 4. 检查可能存在冲突的属性值 `stylelint-declaration-block-no-ignored-properties`
 5. 预设`rules`
+
+## 注意
+
+1. `postcss-less`在开发项目中，使用`yarn`会无法安装, 使用`npm`正常安装。如果使用`yarn`, 需要在开发项目中手动安装，版本需要跟本仓库一致 `^6.0.0`
