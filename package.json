@@ -12,18 +12,19 @@
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "README.md"
   ],
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
+    "postcss": "^8.4.14",
     "postcss-less": "^6.0.0",
+    "stylelint": "^14.9.1",
+    "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recess-order": "^3.0.0",
     "stylelint-config-standard": "^26.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.5.0"
-  },
-  "peerDependencies": {
-    "stylelint": "^14.9.1"
   }
 }

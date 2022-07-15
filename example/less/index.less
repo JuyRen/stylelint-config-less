@@ -1,0 +1,21 @@
+@import './mixin.less';
+
+.import {
+  @import './var.less';
+
+  color: @primary-color;
+}
+
+.box-line-3 {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  white-space: pre-wrap;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.light {
+  .fontLight(20px);
+}
