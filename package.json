@@ -1,14 +1,14 @@
 {
-  "name": "@juyren/stylelint-config-personal",
-  "version": "1.0.7",
+  "name": "@juyren/stylelint-config-less",
+  "version": "1.0.0",
   "description": "个人使用的stylelint配置",
   "keywords": [
     "stylelint",
     "stylelint-config",
-    "personal"
+    "less"
   ],
   "author": "juyren",
-  "repository": "git@github.com:JuyRen/stylelint-config-personal.git",
+  "repository": "git@github.com:JuyRen/stylelint-config-less.git",
   "license": "MIT",
   "main": "index.js",
   "files": [
