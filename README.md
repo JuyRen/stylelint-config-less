@@ -6,7 +6,7 @@
 ## 安装
 
 ```shell
-  yarn add @juyren/stylelint-config-personal -D
+  yarn add @juyren/stylelint-config-less -D
 ```
 
 ## 集成功能
