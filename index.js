@@ -33,7 +33,11 @@ module.exports = {
     // 配合stylelint-declaration-block-no-ignored-properties插件
     "plugin/declaration-block-no-ignored-properties": true,
   },
-
-  // https://stylelint.io/user-guide/usage/options/#customsyntax
-  customSyntax: "postcss-less",
+  overrides: [
+    {
+      // https://stylelint.io/user-guide/usage/options/#customsyntax
+      files: ['**/*.less'],
+      customSyntax: 'postcss-less',
+    },
+  ],
 };
