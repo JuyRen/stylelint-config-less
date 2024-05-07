@@ -7,6 +7,26 @@
 
 ```shell
   yarn add @juyren/stylelint-config-less -D
+
+  npm install @juyren/stylelint-config-less -D
+```
+
+## 使用
+```shell
+  # .stylelintrc.js
+
+  module.exports = {
+    "extends": ["@juyren/stylelint-config-less"]
+  }
+
+  # .vscode --> settings.json
+  {
+      "stylelint.validate": ["less"],
+
+      "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": "explicit"
+      }
+  }
 ```
 
 ## 集成功能

@@ -1,0 +1,6 @@
+{
+    "stylelint.validate": ["less"],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": "explicit"
+    }
+}
